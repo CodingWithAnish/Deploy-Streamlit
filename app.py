@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('../notebook/model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     lr_model = pickle.load(file)
 
 st.title("Cinema Total Sales Prediction")
